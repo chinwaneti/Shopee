@@ -15,8 +15,8 @@ export default function Footer() {
           </div>
           
         <nav className="flex flex-wrap justify-center space-x-6 md:space-x-12">
-        <Link href='#'><p className="hover:text-pink-500 transition duration-300 cursor-pointer">Home</p></Link>
-          <Link href='#'><p className="hover:text-pink-500 transition duration-300 cursor-pointer">Shop</p></Link>
+        <Link href='/'><p className="hover:text-pink-500 transition duration-300 cursor-pointer">Home</p></Link>
+          <Link href='/category'><p className="hover:text-pink-500 transition duration-300 cursor-pointer">Shop</p></Link>
           <Link href='category'> <p className="hover:text-pink-500 transition duration-300 cursor-pointer">Categories</p></Link>
           <Link href='deals'><p className="hover:text-pink-500 transition duration-300 cursor-pointer">Deals</p></Link>
           <Link href='#'> <p className="hover:text-pink-500 transition duration-300 cursor-pointer">Contact</p></Link>
