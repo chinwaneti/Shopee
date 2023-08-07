@@ -44,7 +44,7 @@ export default function ProductDetailsPage({ params }) {
 
   return (
     <div className="bg-gray-100 min-h-screen py-12">
-      <div className="container mx-auto">
+      <div className="container pt-20 mx-auto">
         <div className="flex justify-between items-center mb-8">
           <Link href="/category">
             <div className="cursor-pointer">
