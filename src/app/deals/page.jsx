@@ -77,7 +77,7 @@ export default function Bulk() {
        
     const fresh = products.map((product =>(
         <section key={product.id} className='rounded-lg  p-10 '>
-        <Image src={product.images} alt='freshh' width={150} height={150} className=''></Image>
+        <Image src={product.images} alt='freshh' width={200} height={200} className=''></Image>
         <div className=''>
         <div className='py-1'>{product.name}</div>
         <div>$ {product.price}</div></div>

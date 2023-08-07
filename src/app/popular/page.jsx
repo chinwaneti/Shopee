@@ -95,15 +95,15 @@ export default function page() {
     ];
 
     const farm = products2.map(products =>(
-        <section key={products.id} className='bg-gray-200 w-full h-[50%] rounded-lg  '>
+        <section key={products.id} className='bg-gray-200   rounded-lg  '>
         <Image src={products.images} alt='pics' width={150} height={150} className='mx-auto mt-5'></Image>
         <div className='ml-14 mt-2'>$ {products.price}</div>
         <Link href='/Shopcart'><div className='w-full text-center bg-pink-200 p-2 my-2'> {products.cart}</div></Link>
         </section>
     ))
   return (
-    <div className='w-full pt-20 container mx-auto py-10 bg-pink-50 '>
-    <div className='text-center font-bold py-10 text-3xl'>Popular Items</div>
+    <div className='w-full pt-32 container mx-auto py-10 bg-pink-50 '>
+    <div className='text-center font-bold  py-10 text-3xl'>Popular Items</div>
     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>{farm}</div>
 
     </div>

@@ -14,9 +14,9 @@ export default function Categories() {
   }, []);
 
   return (
-    <div className="container mx-auto py-10">
-      <h1 className='text-2xl font-semibold mb-6'>Store Products</h1>
-      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+    <div className="container mx-auto pt-20 bg-pink-100 py-10">
+      <h1 className='text-2xl  text-center py-10 font-bold'>Categories</h1>
+      <div className='grid grid-cols-2 md:grid-cols-3 p-5 lg:grid-cols-4 gap-6'>
         {products.length > 0 && (
           <>
             {renderProductSection(products.slice(0, 1), 'rounded-t-lg')}
