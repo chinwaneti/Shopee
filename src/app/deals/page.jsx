@@ -84,9 +84,9 @@ export default function Bulk() {
         </section>
     )))      
   return (
-    <div className='w-full   bg-pink-50'>
+    <div className='w-full   bg-pink-50 pt-20'>
     <div className='text-center font-bold py-10 text-3xl'>Deals Page</div>
-    <div className='grid grid-cols-4 gap-3 w-[80%] mx-auto'>{fresh}</div>
+    <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-[80%] mx-auto'>{fresh}</div>
 
     </div>
   )
